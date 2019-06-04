@@ -5,7 +5,7 @@ Copy right @Ketchumfion
 
 # How to run the code:
 ----------------------------------------------------------------------------------------------------
-** IDE: Eclipse
+IDE: Eclipse
 The program can simulate LCR and HS algorithm for varying size of rings. For convenience, start and end size of rings could be set, and the program will automatically simulate each size one by one. Gap between each size could also be changed. User only need to run this program once. (For instance: set size range 2-10,gap equals to 1. The simulator will simulate 2 nodes ring, 3 nodes ring,...,10 nodes ring consecutively). After each size, the round numbers, average, maximum and minimum messages number will be printed.
 ----------------------------------------------------------------------------------------------------
 
