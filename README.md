@@ -1,7 +1,7 @@
 # Leader-Election
 COMP212-LCR and HS algorithms
 
-Copy right @Ketchumfion
+Copy right @[!Ketchumfion](https://github.com/KetchumFion)
 
 # How to run the code:
 
