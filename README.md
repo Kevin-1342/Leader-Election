@@ -9,7 +9,7 @@ IDE: Eclipse
 The program can simulate LCR and HS algorithm for varying size of rings. For convenience, start and end size of rings could be set, and the program will automatically simulate each size one by one. Gap between each size could also be changed. User only need to run this program once. (For instance: set size range 2-10,gap equals to 1. The simulator will simulate 2 nodes ring, 3 nodes ring,...,10 nodes ring consecutively). After each size, the round numbers, average, maximum and minimum messages number will be printed.
 
 
-## 1. There are 7 variables can be used to control the simulator at the begining of the "main" class. Change these values can produce various results required.
+>- 1. There are 7 variables can be used to control the simulator at the begining of the "main" class. Change these values can produce various results required.
 
 (1) Start_Node_Num: the program will start at this number of nodes in ring
 
@@ -25,9 +25,9 @@ The program can simulate LCR and HS algorithm for varying size of rings. For con
 
 (7) Display_Each_Round_Process: This boolean variable means if the program need to show every details in each round for each node (myID, inID, etc.). If this variable equals to 'true', every details will be printed on the console (will print thousands of lines on console). Otherwise, only the result, which are rounds number, average, maximum and minimum messages number will be printed.
 
-## 2. There is also a simple user interface method called "userInterface()", which can also be used to change 7 variables described above by input number after running.
+>- 2. There is also a simple user interface method called "userInterface()", which can also be used to change 7 variables described above by input number after running.
 
-## 3. Example:
+>- 3. Example:
 
 (1) Start_Node_Num = 3
 
