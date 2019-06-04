@@ -4,10 +4,10 @@ COMP212-LCR and HS algorithms
 Copy right @Ketchumfion
 
 # How to run the code:
-----------------------------------------------------------------------------------------------------
+
 IDE: Eclipse
 The program can simulate LCR and HS algorithm for varying size of rings. For convenience, start and end size of rings could be set, and the program will automatically simulate each size one by one. Gap between each size could also be changed. User only need to run this program once. (For instance: set size range 2-10,gap equals to 1. The simulator will simulate 2 nodes ring, 3 nodes ring,...,10 nodes ring consecutively). After each size, the round numbers, average, maximum and minimum messages number will be printed.
-----------------------------------------------------------------------------------------------------
+
 
 ## 1. There are 7 variables can be used to control the simulator at the begining of the "main" class. Change these values can produce various results required.
 
@@ -30,12 +30,19 @@ The program can simulate LCR and HS algorithm for varying size of rings. For con
 ## 3. Example:
 
 (1) Start_Node_Num = 3
+
 (2) End_Node_Num = 1000
+
 (3) Avarge_Times = 100
+
 (4) Add_Node_Each_Time = 1
+
 (5) Ring_Order = RANDOM
+
 (6) Algorithm_Type = LCR_AND_HS
+
 (7) Display_Each_Round_Process = false
+
 Thus, the whole loop will start at 3 nodes, repeat 100 times to get average,min and max. Only show results of both LCR and HS. And then add 1 node, display the results. Repeat 100 times of each size and add one node until 1000 nodes exist. Then stop.
 
 
