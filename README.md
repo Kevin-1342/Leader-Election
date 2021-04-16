@@ -2,8 +2,6 @@
 University of Liverpool
 COMP212-LCR and HS algorithms
 
-Copyright ©[Ketchumfion](https://github.com/KetchumFion)
-
 # How to run the code:
 
 IDE: Eclipse
